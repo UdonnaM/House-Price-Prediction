@@ -63,7 +63,7 @@ The main features used in the model are:
 
 After training the model, the following results were obtained:
 
-•	Coefficients: The linear regression model produced the following coefficients for the selected features: -54727.93 (for bedrooms), 326.47 (for square footage of living space), 21645.77 (for condition), -1997.91 (for year built), and 33.93 (for year renovated). These values represent the weight or impact each feature has on the predicted house price. For example, for every additional square foot of living space, the price is expected to increase by approximately $326.47, holding other factors constant.
+•	Coefficients: The multiple linear regression model produced the following coefficients for the selected features: -54727.93 (for bedrooms), 326.47 (for square footage of living space), 21645.77 (for condition), -1997.91 (for year built), and 33.93 (for year renovated). These values represent the weight or impact each feature has on the predicted house price. For example, for every additional square foot of living space, the price is expected to increase by approximately $326.47, holding other factors constant.
 
 •	Intercept: The intercept is 3,906,669.75. This represents the base price when all features are zero, although in practice, it serves as an adjustment factor in the model’s prediction equation.
 
@@ -72,6 +72,8 @@ After training the model, the following results were obtained:
 •	Coefficient of Determination (R²): The R² score is 0.56. This value indicates that the model explains 56% of the variance in house prices. While this suggests moderate accuracy, there is room for improvement, and including other features or exploring more complex models may lead to higher predictive power.
 
 •	Model Persistence: The trained model was saved as 'Multiplelinear_regression_model.pkl' for future reuse.
+
+Model training code link: [MultipleLinearRegression3dcode-1 - app.py](MultipleLinearRegression3dcode-1%20-%20app.py)
 
 **4. Model Deployment Using Flask**
 
