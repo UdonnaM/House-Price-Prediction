@@ -11,10 +11,15 @@ Accurately predicting house prices based on features such as square footage, the
 **2. Dataset Overview**
 
 The dataset consists of 21,613 records with 19 features, which include various characteristics of properties in a region. The target variable is the house price. The key features used in the model include:
+
 •	bedrooms: Number of bedrooms.
+
 •	sqft_living: Square footage of living space.
+
 •	condition: The overall condition of the house.
+
 •	yr_built: Year the house was built.
+
 •	yr_renovated: Year of renovation.
 
 
