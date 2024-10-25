@@ -33,8 +33,10 @@ After loading the dataset, we initially had 19 columns, representing various fea
 **3.2 Feature Selection and Column Reduction**
 
 During the preprocessing phase, we noticed a reduction in the number of columns from 19 to 17. Upon investigation, we determined that the following columns were excluded:
+
 i.	sqft_above: Represents the square footage of the house excluding the basement.
-ii.	sqft_living15: Represents the average square footage of living space in the neighborhood (within a 15-house radius).
+
+ii. sqft_living15: Represents the average square footage of living space in the neighborhood (within a 15-house radius).
    
 **Reason for Removal:**
 
